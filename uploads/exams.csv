@@ -1,0 +1,7 @@
+day,date,subject,form,start_time,duration,required
+Monday,01-Jan,Mathematics,5A,09:00,2,2
+Monday,01-Jan,History,4B,14:00,1.5,1
+Tuesday,02-Jan,Science,5B,11:00,1.5,2
+Tuesday,02-Jan,Chemistry,6A,09:00,2,3
+Wednesday,03-Jan,English,5C,14:00,1,1
+Wednesday,03-Jan,Physics,6B,09:00,2,2

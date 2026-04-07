@@ -26,17 +26,21 @@ python app.py
 
 ### Exam Schedule (CSV)
 ```csv
-day,date,subject,form,start_time,duration
-Monday,01-Jan,Mathematics,5A,09:00,2
-Tuesday,02-Jan,Science,5B,11:00,1.5
-```
+day,date,subject,form,start_time,duration,required
+Monday,01-Jan,Mathematics,5A,09:00,2,2
+Monday,01-Jan,History,4B,14:00,1.5,1
+Tuesday,02-Jan,Science,5B,11:00,1.5,2
+Tuesday,02-Jan,Chemistry,6A,09:00,2,3
+Wednesday,03-Jan,English,5C,14:00,1,1
+Wednesday,03-Jan,Physics,6B,09:00,2,2
 
 ### Invigilator Schedule (CSV)
 ```csv
 initial,max_hours,monday,tuesday,wednesday,thursday,friday
-TCH1,10,09:00-12:00,10:00-12:00,09:00-11:00,,
-TCH2,8,,09:00-11:00,13:00-15:00,10:00-12:00,09:00-11:00
-```
+TCH1,15,09:00-16:00,09:00-16:00,09:00-16:00,09:00-16:00,09:00-16:00
+TCH2,10,09:00-12:00,09:00-12:00,09:00-12:00,,
+TCH3,8,13:00-16:00,13:00-16:00,13:00-16:00,,
+TCH4,2,09:00-12:00,09:00-12:00,09:00-12:00,
 
 ## Features
 
